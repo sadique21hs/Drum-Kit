@@ -1,10 +1,11 @@
-var n= document.querySelectorAll(".drum").lenght;
+var n=document.querySelectorAll(".drum").length;
 
 for(var i=0; i<n; i++){
-    document.querySelector(".drum")[i].addEventListener("click",function(){
- alert("I got clicked");
-});
+     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    alert("I got clicked");
+  });
+
 }
 
 
-
+ 
