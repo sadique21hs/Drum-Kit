@@ -48,10 +48,10 @@ for (var i = 0; i < n; i++) {
         audio.play();
         break;
 
-      default:
+      default:console.log(buttonInnerHTML);
         break;
+
+      
     }
   }
-
-
 }
