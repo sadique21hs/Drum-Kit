@@ -4,6 +4,7 @@ for (var i = 0; i < n; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
     var buttonClick = this.innerHTML;
     makeSound(buttonInnerHTML);
+    buttonAnnimation(buttonInnerHTML);
   });
 
 
@@ -54,4 +55,13 @@ for (var i = 0; i < n; i++) {
       
     }
   }
+
+  function buttonAnnimation(currentKey){
+
+  }
+  
+
+
+
+
 }
