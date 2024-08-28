@@ -9,7 +9,8 @@ for (var i = 0; i < n; i++) {
 
 
   document.addEventListener("keypress", function(event){
-   makeSound(event.key)
+   makeSound(event.key);
+   buttonAnnimation(event.key);
   });
 
   function makeSound(key){
